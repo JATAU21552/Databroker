@@ -1,0 +1,21 @@
+﻿Summary of Apporach
+
+First step was to test if i could send well formatted json text and write it back to the console.
+
+then i set up a simple json text and tested.
+
+Next, the program would need to extract all the attributes within the JSON. I test by check the amount of fields read is the same as the amount of fields within the JSON object.
+
+The next step: i thought of what would be the difference between primitive fields and non-primitive fields.
+I deduced that i can get the properties of each field and check if it is a complex type.
+i then created a method that would return a boolean based on if the field is a complex type or not. I can not do that with JObject but if i cast the fields to JTokens with is a
+type derived from JObject, i would be able to tell if a field is a complex one or not.
+
+After that i create a temporary array the hold the fields in the order. I keep two pointers one for the back end of the array and the other for the front end of the array. 
+All complex fields are sent to the back of the array and primitive fields sent to the front of the array.
+
+after the sort, a Json object is recreated using items in the array in the order.
+
+
+
+

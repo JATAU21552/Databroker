@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7f5cda57_002Dc640_002D4565_002Da6da_002D3f68a346b748/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WhenEmptyObjectThenEmptyObject" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::72E3CA8F-B196-4FDD-9B1F-E765871664DC::.NETCoreApp,Version=v2.1::Tests.AttributeFirstJsonTransformerTests.WhenEmptyObjectThenEmptyObject&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,15 @@
+﻿{
+"FirstName": "Arthur",
+"LastName": "Bertrand",
+"Adrress": {
+"StreetName": "Gedempte Zalmhaven",
+"Number": "4K",
+"City": {
+"Name": "Rotterdam",
+"Country": "Netherlands"
+},
+"ZipCode": "3011 BT"
+},
+"Age": 35,
+"Hobbies": ["Fishing", "Rowing"]
+}
